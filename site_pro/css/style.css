@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.list_item_link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 40px;
+  height: 40px;
+}
+
+.email_link,
+.lock_link {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.4)), to(rgba(255, 255, 255, 0))), #7E82EE;
+  background: -o-linear-gradient(top, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%), #7E82EE;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%), #7E82EE;
+}
+
+.email_link {
+  border-radius: 6px 0 0 6px;
+  border: 1px solid #7B7EF1;
+}
+
+.email_link:hover {
+  background: #464CE3;
+  border-color: #464CE3;
+}
+
+.lock_link {
+  border-top: 1px solid #7B7EF1;
+  border-bottom: 1px solid #7B7EF1;
+}
+
+.lock_link:hover {
+  position: relative;
+  z-index: 100;
+  margin-left: -1px;
+  margin-right: -1px;
+  background: #464CE3;
+  border: 1px solid #464CE3;
+}
+
+.human_link {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.4)), to(rgba(255, 255, 255, 0))), #F05858;
+  background: -o-linear-gradient(top, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%), #F05858;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%), #F05858;
+  border: 1px solid #E34F4F;
+  border-radius: 0 6px 6px 0;
+}
+
+.human_link:hover {
+  background: #DC2D2D;
+  border-color: #CE4141;
+}
